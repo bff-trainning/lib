@@ -1,0 +1,20 @@
+{
+  "name": "cn-doscover-api",
+  "version": "1.0.3",
+  "description": "restapi for news service",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "release": "tsc && npm publish",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cn-doscover": "1.0.3"
+  }
+}
